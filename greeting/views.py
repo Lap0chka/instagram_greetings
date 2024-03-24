@@ -5,8 +5,8 @@ from instabot import Bot
 def index(request):
     bot = Bot()
     username = 'tattoo_partak_com'
-    password = 'zGstiw3259'
-    message = 'Ny tu i pidor'
+    password = 'password'
+    message = 'Hiii'
     # Логин в систему
     bot.login(username=username, password=password)
     user_followers = bot.get_user_followers(username)
